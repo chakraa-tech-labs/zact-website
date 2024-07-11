@@ -96,7 +96,8 @@ header {
 }
 
 .sec1-content-1 {
-  width: 641px;
+  min-width: 500px;
+  max-width: 641px;
   padding: 0px 15px;
   height: 444px;
   /* display: flex;
@@ -183,15 +184,16 @@ header {
 }
 
 .sec1-content-2 {
-  width: 641px;
+  min-width: 500px;
+  max-width: 641px;
   padding: 0px 15px;
   height: 556px;
   /* background-color: pink; */
 }
 
 .sec1-content-2 img {
-  width: 611px;
-  height: 556px;
+  width: 100%;
+  height: 100%;
   /* background-color: #434ee1; */
 }
 
@@ -442,6 +444,7 @@ header {
   padding: 50px 0px;
   background-color: #f5f7fa;
   border-radius: 100px 100px 0px 0px;
+  /* display: none; */
 }
 
 .sec5-title {
