@@ -78,8 +78,9 @@ header {
 }
 
 .section1 {
-  min-height: 576px;
-  padding: 50px 0px;
+  min-height: 450px;
+  /* padding-top: 25px; */
+  /* padding: 50px 0px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -89,60 +90,72 @@ header {
 .sec1-content-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
-  justify-content: space-around;
-  /* background-color: #234feb; */
-}
-
-.sec1-content-1 {
-  min-width: 500px;
-  max-width: 641px;
-  padding: 0px 15px;
-  height: 444px;
-  /* display: flex;
   justify-content: center;
-  align-items: center; */
+  /* background-color: #23ebeb; */
+  /* display: none; */
+}
+.sec1-content-1 {
+  /* width: 469px; */
+  max-width: 750px;
+  min-width: 500px;
+  min-height: 490px;
+  /* padding-bottom: 20px; */
+  /* padding-top: 80px; */
+  /* min-width: 500px;
+  max-width: 641px; */
+  /* margin-top: 25px; */
+  /* padding: 0px 15px; */
+  /* height: 444px; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
   /* background-color: pink; */
 }
 
 .sec1-content-1-sub-box {
   /* margin-top: 80px; */
-  /* background-color: aqua; */
+  padding: 0px 20px;
+  /* background-color: #434ee1; */
 }
 
 .sec1-content1-text1 {
-  font-size: 16px;
-  color: #4c4c4c;
-  margin-top: 20px;
+  font-size: 24px;
+  color: #ffca4d;
+  /* margin-top: 20px; */
   letter-spacing: normal;
-  font-family: "puvi-Regular";
-  /* background-color: yellow; */
+  line-height: 50px;
+  font-family: "puvi-Medium";
+  font-weight: 900;
+  /* background-color: blue; */
 }
 
 .sec1-content1-text2 {
-  font-size: 40px;
+  font-size: 72px;
   color: #000000;
   line-height: normal;
-  margin-top: 24px;
+  /* margin-top: 24px; */
   font-family: "puvi-Bold";
   /* background-color: yellowgreen; */
 }
 
 .sec1-content1-text3 {
-  font-size: 16px;
+  font-size: 24px;
   color: #4c4c4c;
-  margin-top: 24px;
+  line-height: 60px;
+  /* margin-top: 24px; */
   letter-spacing: normal;
-  font-family: "puvi-Regular";
+  font-family: "puvi-Medium";
   /* background-color: yellow; */
 }
 
 .sec1-content1-form {
   width: 496px;
   min-height: 53px;
-  margin-top: 38px;
+  margin-top: 40px;
   position: relative;
+  /* background-color: blueviolet; */
 }
 
 .sec1-content1-form input {
@@ -154,7 +167,7 @@ header {
   text-indent: 14px;
   outline: none;
   padding-right: 214px;
-  background-color: #f5f5ff;
+  background-color: #ffffff;
   border: 1px solid #9b9eae;
 }
 
@@ -184,16 +197,18 @@ header {
 }
 
 .sec1-content-2 {
-  min-width: 500px;
-  max-width: 641px;
+  /* min-width: 500px;
+  max-width: 641px; */
   padding: 0px 15px;
-  height: 556px;
+  width: 436px;
+  height: 490px;
   /* background-color: pink; */
 }
 
 .sec1-content-2 img {
   width: 100%;
   height: 100%;
+  object-fit: fill;
   /* background-color: #434ee1; */
 }
 
@@ -205,6 +220,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* display: none; */
 }
 
 .sec2-title span {
@@ -214,6 +230,8 @@ header {
   line-height: normal;
   font-family: "puvi-Semi-Bold";
   text-align: center;
+  padding: 0px 10px;
+  /* background-color: pink; */
 }
 
 .sec2-content-box {
@@ -227,11 +245,10 @@ header {
 
 .sec2-box {
   width: 381px;
-  padding: 24px 0px;
-  /* min-height: 94px; */
+  height: 94px;
   border-radius: 14px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px,
@@ -240,26 +257,23 @@ header {
 
 .sec2-sub-box {
   width: 343px;
-  min-height: 46px;
   display: flex;
-  align-items: center;
-  /* background-color: red; */
 }
 
 .sec2-box-icon {
   display: flex;
   align-items: center;
-  /* background-color: #ff6e57; */
 }
 
 .sec2-box-text {
+  display: flex;
+  align-items: center;
   font-size: 20px;
+  height: 69px;
   margin-left: 12px;
   line-height: 22.94px;
   font-family: "puvi-Medium";
   font-weight: 500;
-  /* text-align: center; */
-  /* background-color: yellow; */
 }
 
 .sec2-box2 .sec2-sub-box {
@@ -280,8 +294,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  /* background-color: rgba(0, 0, 0, 0.1); */
 }
 
 .section3-title1 {
@@ -290,7 +302,6 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  /* background-color: #ffd35a; */
 }
 
 .section3-title2 {
@@ -299,7 +310,6 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  /* background-color: #ffd35a; */
 }
 
 .section3-title3 {
@@ -308,7 +318,8 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  /* background-color: #ffd35a; */
+  padding: 0px 10px;
+  text-align: center;
 }
 
 .section3-title4 {
@@ -317,11 +328,9 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  /* background-color: #ffd35a; */
 }
 
 .section3-contentbox {
-  /* background-color: brown; */
   display: flex;
   justify-content: center;
 }
@@ -333,7 +342,6 @@ header {
   justify-content: space-evenly;
   gap: 50px;
   margin-top: 55px;
-  /* background-color: #9cdba6; */
 }
 
 .section3-content {
@@ -341,36 +349,25 @@ header {
   height: 220px;
   margin-top: 20px;
   padding: 20px;
-  /* background-color: white; */
   background-color: #f5f6fa;
-
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
 }
-/* .section3-content1,
-.section3-content3,
-.section3-content5 {
-  background-color: #f5f6fa;
-  border: none;
-} */
 
 .section3-sub-content {
   width: 243px;
   height: 180px;
-  /* background-color: red; */
 }
 
 .section3-sub-content-text1 {
   font-size: 26px;
   color: #140f3b;
   font-family: "puvi-Medium";
-  /* background-color: #234feb; */
 }
+
 .section3-sub-content-text2 {
   margin-top: 20px;
   color: #4c4c4c;
   font-size: 16px;
   font-family: "puvi-Regular";
-  /* background-color: pink; */
 }
 
 /* Section-4 Style */
@@ -444,7 +441,6 @@ header {
   padding: 50px 0px;
   background-color: #f5f7fa;
   border-radius: 100px 100px 0px 0px;
-  /* display: none; */
 }
 
 .sec5-title {
@@ -454,13 +450,11 @@ header {
   color: #140f3b;
   line-height: normal;
   font-family: "puvi-Semi-Bold";
-  /* background-color: darkgoldenrod; */
 }
 
 .sec5-content {
   display: flex;
   justify-content: center;
-  /* background-color: yellow; */
 }
 
 .sec5-content1-main-box {
@@ -475,7 +469,6 @@ header {
 }
 
 .sec5-con-box {
-  /* width: 184px; */
   width: 280px;
   min-height: 218px;
   padding: 20px;
@@ -517,7 +510,6 @@ header {
 }
 
 .sec5-con-box1 {
-  /* background-color: #e5f2e0; */
   background: linear-gradient(180deg, #cbd3fa 0%, #f5f7fa 90%);
 }
 
@@ -527,34 +519,28 @@ header {
 }
 
 .sec5-con-box2 {
-  /* background-color: #f5eaf8; */
   background: linear-gradient(180deg, #e9f2e4 0%, #f5f7fa 90%);
 }
 
 .sec5-con2-text-box {
-  /* width: 264px; */
   width: 200px;
   color: #140f3b;
 }
 
 .sec5-con-box3 {
-  /* background-color: #deedf9; */
   background: linear-gradient(180deg, #e8f4fa 0%, #f5f7fa 90%);
 }
 
 .sec5-con3-text-box {
-  /* width: 264px; */
   width: 200px;
   color: #140f3b;
 }
 
 .sec5-con-box4 {
-  /* background-color: #eaebfa; */
   background: linear-gradient(180deg, #f5ded8 0%, #f5f7fa 90%);
 }
 
 .sec5-con4-text-box {
-  /* width: 264px; */
   width: 250px;
   color: #140f3b;
 }
@@ -565,7 +551,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
 }
 
 .sec5-content2-text1 {
@@ -580,7 +565,11 @@ header {
   font-family: "puvi-Regular";
   min-width: 500px;
   max-width: 800px;
-  /* background-color: red; */
+  padding: 0px 20px;
+}
+
+.sec5-content3-main-padding {
+  padding: 0px 20px;
 }
 
 .sec5-content3-main-box {
@@ -594,7 +583,7 @@ header {
 
 .sec5-content3-sub-box {
   display: flex;
-  gap: 200px;
+  gap: 180px;
   flex-wrap: wrap;
   padding-left: 74px;
   align-items: center;
@@ -628,7 +617,6 @@ header {
 .sec5-con3-box1-content4 {
   font-size: 16px;
   color: white;
-  /* margin-top: 20px; */
   line-height: 22.94px;
   font-family: "puvi-Regular";
 }
@@ -696,7 +684,6 @@ header {
 }
 
 .sec5-con3-box2 img {
-  /* width: 436px; */
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -884,4 +871,51 @@ header {
   color: #101010;
   font-weight: 500;
   font-family: "puvi-Medium";
+}
+
+/* Menu Bar gap align */
+@media (min-width: 480px) and (max-width: 991px) {
+  .navbar-nav li {
+    margin-left: 0px;
+  }
+}
+
+/* Ready to revolutionize your customer engagement control */
+@media (min-width: 480px) and (max-width: 1287px) {
+  .sec5-content3-sub-box {
+    gap: 140px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1247px) {
+  .sec5-content3-sub-box {
+    gap: 100px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1207px) {
+  .sec5-content3-sub-box {
+    gap: 60px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1167px) {
+  .sec5-content3-sub-box {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1127px) {
+  .sec5-content3-sub-box {
+    gap: 10px;
+  }
+}
+
+/* Remove Ready to revolutionize your customer engagement control photo picture border-radious */
+@media (min-width: 480px) and (max-width: 1117px) {
+  .sec5-con3-box2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
 }
