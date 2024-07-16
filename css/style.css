@@ -49,7 +49,6 @@ header {
   gap: 4px;
   align-items: center;
   cursor: default;
-  /* background-color: rgba(255, 0, 0, 0.336); */
 }
 
 .navbar .navbar-brand div {
@@ -58,13 +57,11 @@ header {
   font-weight: bold;
   font-family: "puvi-Regular";
   cursor: default;
-  /* background-color: #234feb; */
 }
 
 .navbar .navbar-brand img {
   width: 35px;
   height: 35px;
-  /* background-color: pink; */
 }
 
 .navbar-nav .nav-link {
@@ -79,12 +76,9 @@ header {
 
 .section1 {
   min-height: 450px;
-  /* padding-top: 25px; */
-  /* padding: 50px 0px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* background-color: red; */
 }
 
 .sec1-content-box {
@@ -93,61 +87,42 @@ header {
   gap: 50px;
   align-items: center;
   justify-content: center;
-  /* background-color: #23ebeb; */
-  /* display: none; */
 }
 .sec1-content-1 {
-  /* width: 469px; */
   max-width: 750px;
   min-width: 500px;
   min-height: 490px;
-  /* padding-bottom: 20px; */
-  /* padding-top: 80px; */
-  /* min-width: 500px;
-  max-width: 641px; */
-  /* margin-top: 25px; */
-  /* padding: 0px 15px; */
-  /* height: 444px; */
   display: flex;
   justify-content: start;
   align-items: center;
-  /* background-color: pink; */
 }
 
 .sec1-content-1-sub-box {
-  /* margin-top: 80px; */
   padding: 0px 20px;
-  /* background-color: #434ee1; */
 }
 
 .sec1-content1-text1 {
   font-size: 24px;
   color: #ffca4d;
-  /* margin-top: 20px; */
   letter-spacing: normal;
   line-height: 50px;
   font-family: "puvi-Medium";
   font-weight: 900;
-  /* background-color: blue; */
 }
 
 .sec1-content1-text2 {
   font-size: 72px;
   color: #000000;
   line-height: normal;
-  /* margin-top: 24px; */
   font-family: "puvi-Bold";
-  /* background-color: yellowgreen; */
 }
 
 .sec1-content1-text3 {
   font-size: 24px;
   color: #4c4c4c;
   line-height: 60px;
-  /* margin-top: 24px; */
   letter-spacing: normal;
   font-family: "puvi-Medium";
-  /* background-color: yellow; */
 }
 
 .sec1-content1-form {
@@ -155,7 +130,6 @@ header {
   min-height: 53px;
   margin-top: 40px;
   position: relative;
-  /* background-color: blueviolet; */
 }
 
 .sec1-content1-form input {
@@ -197,19 +171,15 @@ header {
 }
 
 .sec1-content-2 {
-  /* min-width: 500px;
-  max-width: 641px; */
   padding: 0px 15px;
   width: 436px;
   height: 490px;
-  /* background-color: pink; */
 }
 
 .sec1-content-2 img {
   width: 100%;
   height: 100%;
   object-fit: fill;
-  /* background-color: #434ee1; */
 }
 
 /* Section-2 Style */
@@ -220,7 +190,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* display: none; */
 }
 
 .sec2-title span {
@@ -231,7 +200,6 @@ header {
   font-family: "puvi-Semi-Bold";
   text-align: center;
   padding: 0px 10px;
-  /* background-color: pink; */
 }
 
 .sec2-content-box {
@@ -288,6 +256,7 @@ header {
   width: 347px;
 }
 
+/* Section-3 Style */
 .section3 {
   min-height: 526px;
   padding: 50px 0px;
@@ -433,6 +402,7 @@ header {
   font-family: "puvi-Regular";
 }
 
+/* Section-5 Style */
 .section5 {
   min-height: 705px;
   display: flex;
@@ -463,9 +433,9 @@ header {
 
 .sec5-content1-sub-box {
   display: flex;
-  gap: 21px;
+  gap: 25px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .sec5-con-box {
@@ -565,7 +535,6 @@ header {
   font-family: "puvi-Regular";
   min-width: 500px;
   max-width: 800px;
-  padding: 0px 20px;
 }
 
 .sec5-content3-main-padding {
@@ -579,6 +548,7 @@ header {
   justify-content: center;
   background-color: #422c78;
   border-radius: 65px;
+  /* padding-top: 10px; */
 }
 
 .sec5-content3-sub-box {
@@ -592,11 +562,12 @@ header {
 }
 
 .sec5-con3-box1 {
-  width: 558px;
+  width: 530px;
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
+  /* background-color: grey; */
 }
 
 .sec5-con3-box1-content1 {
@@ -699,7 +670,10 @@ header {
   font-family: "puvi-Regular";
 }
 
-/* Footer Style */
+/* #contact {
+  display: none;
+} */
+
 .footer {
   min-height: 307px;
   padding-bottom: 32px;
@@ -912,10 +886,369 @@ header {
 }
 
 /* Remove Ready to revolutionize your customer engagement control photo picture border-radious */
-@media (min-width: 480px) and (max-width: 1117px) {
+@media (min-width: 480px) and (max-width: 1089px) {
   .sec5-con3-box2 img {
     width: 100%;
     height: 100%;
     border-radius: 0px;
+  }
+}
+
+/* Do you have an idea to optimise your operations? padding-left Remove */
+@media (min-width: 480px) and (max-width: 700px) {
+  .sec5-content3-sub-box {
+    padding-left: 10px;
+  }
+}
+
+/*sec5-content3-main-padding Div box remove  */
+@media (min-width: 480px) and (max-width: 557px) {
+  .sec5-content3-main-padding {
+    padding: 0px 0px;
+  }
+}
+
+/* Mobile Size Media-Queries Start  */
+
+@media (min-width: 360px) and (max-width: 430px) {
+  .navbar .navbar-brand div {
+    font-size: 24px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  .navbar-nav li {
+    margin-left: 0px;
+  }
+
+  /* Section-1 Style */
+  .section1 {
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .sec1-content-box {
+    max-width: 430px;
+    min-width: 360px;
+    min-height: 612px;
+    padding-left: 14px;
+    padding-right: 14px;
+    align-items: start;
+  }
+
+  .sec1-content-1 {
+    max-width: 332px;
+    min-width: 332px;
+    min-height: auto;
+    margin-top: 57px;
+    /* background-color: yellow; */
+  }
+
+  .sec1-content-1-sub-box {
+    padding: 0px 0px;
+  }
+
+  .sec1-content1-text1 {
+    font-size: 20px;
+    line-height: normal;
+    width: 293px;
+  }
+
+  .sec1-content1-text2 {
+    font-size: 40px;
+  }
+
+  .sec1-content1-text3 {
+    font-size: 16px;
+  }
+
+  .sec1-content1-form {
+    width: 332px;
+    height: 38px;
+    margin-top: 20px;
+  }
+
+  .sec1-content1-form input {
+    width: 332px;
+    height: 38px;
+    font-size: 12px;
+    text-indent: 12px;
+  }
+
+  .sec1-content1-form button {
+    padding: 7px;
+    top: 3px;
+  }
+
+  .sec1-content1-form button div {
+    font-size: 12px;
+  }
+
+  .warring-text {
+    font-size: 12px;
+  }
+
+  .sec1-content-2 {
+    padding: 0px 0px;
+    width: 360px;
+    height: 277px;
+    margin-top: 17px;
+  }
+
+  .sec1-content-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  /* Section-2 Style */
+  .section2 {
+    min-height: 632px;
+  }
+
+  .sec2-title span {
+    width: 329px;
+    font-size: 26px;
+  }
+
+  .sec2-content-box {
+    height: 372px;
+  }
+
+  .sec2-box {
+    width: 304px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .sec2-sub-box {
+    width: 236px;
+    margin-left: 12px;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .sec2-box-icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .sec2-box-text {
+    font-size: 14px;
+  }
+
+  .sec2-box2 .sec2-sub-box {
+    width: 277px;
+  }
+
+  .sec2-box-text2 {
+    font-size: 14px;
+  }
+
+  .sec2-box3 .sec2-sub-box {
+    width: 275px;
+  }
+
+  /* Secion-3 */
+  .section3-title1 {
+    font-size: 26px;
+  }
+  .section3-title2 {
+    font-size: 20px;
+  }
+
+  .section3-title3 {
+    font-size: 18px;
+  }
+  .section3-title4 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* Section-4 Style */
+  .sec4-title {
+    font-size: 26px;
+  }
+
+  .sec4-content {
+    min-height: 1960px;
+  }
+
+  .sec4-con-sub-box {
+    width: 360px;
+  }
+
+  .sec4-con-sub-box4,
+  .sec4-con-sub-box2,
+  .sec4-con-sub-box6,
+  .sec4-con-sub-box8 {
+    flex-direction: row;
+  }
+
+  .sec4-con-box-img {
+    width: 328px;
+    height: 328px;
+  }
+
+  .sec4-con-box-img img {
+    width: 328px;
+    height: 328px;
+  }
+
+  .sec4-con-box-text-1 {
+    width: 332px;
+    font-size: 22px;
+  }
+
+  .sec4-con-box-text-2 {
+    width: 332px;
+    font-size: 14px;
+  }
+
+  /* Section-5 Style */
+  .section5 {
+    min-width: 360px;
+  }
+
+  .sec5-title {
+    font-size: 26px;
+  }
+
+  .sec5-con-text1 {
+    font-size: 20px;
+  }
+
+  .sec5-con-text2 {
+    font-size: 14px;
+  }
+
+  .sec5-content3-main-padding {
+    padding: 0px 20px;
+  }
+
+  .sec5-content2-text1 {
+    font-size: 18px;
+  }
+
+  .sec5-content2-text2 {
+    font-size: 14px;
+    min-width: 340px;
+    max-width: 410px;
+    padding: 0px 10px;
+  }
+
+  .sec5-content3-main-box {
+    width: 332px;
+    height: 336px;
+  }
+
+  .sec5-content3-sub-box {
+    padding-left: 0px;
+  }
+
+  .sec5-con3-box1 {
+    width: 284px;
+    min-height: 224px;
+    padding: 0px;
+  }
+
+  .sec5-con3-box1-content1 {
+    font-size: 24px;
+  }
+
+  .sec5-con3-box1-content2 {
+    font-size: 14px;
+  }
+
+  .sec5-con3-box1-content3 {
+    width: 284px;
+    min-width: 284px;
+    height: 38px;
+  }
+
+  .sec5-con3-box1-content3 input {
+    width: 284px;
+    height: 38px;
+    padding-right: 128px;
+    font-size: 14px;
+  }
+
+  .sec5-con3-box1-content3 button {
+    width: 105px;
+    height: 30px;
+    padding: 0px;
+    top: 4px;
+  }
+
+  .sec5-con3-box1-content3 button div {
+    font-size: 12px;
+  }
+
+  .warring-text2 {
+    font-size: 14px;
+  }
+
+  .sec5-con3-box1-content4 {
+    font-size: 12px;
+  }
+
+  .sec5-con3-box2 {
+    display: none;
+  }
+
+  /* Footer Style */
+  .footer-title {
+    width: 360px;
+    font-size: 26px;
+  }
+
+  .footer-content-box {
+    width: 360px;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .footer-con-text1 {
+    font-size: 16px;
+  }
+  .footer-con-text2 {
+    font-size: 14px;
+  }
+
+  .footer-form form {
+    width: 332px;
+  }
+
+  #thirdInput {
+    width: 217px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  #thirdInput ::placeholder {
+    font-size: 12px;
+  }
+
+  .footer-form form button {
+    width: 114px;
+    height: 35px;
+  }
+
+  .footer-form form button div {
+    font-size: 12px;
+  }
+
+  .warring-text3 {
+    font-size: 14px;
+  }
+
+  .sub-copyrights {
+    gap: 26px;
+  }
+
+  .copyrights-text {
+    font-size: 6px;
   }
 }
