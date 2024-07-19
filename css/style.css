@@ -84,99 +84,61 @@ header {
 .sec1-content-box {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 50px; */
   align-items: center;
   justify-content: center;
-  /* background-color: chartreuse; */
 }
 .sec1-content-1 {
-  max-width: 750px;
-  min-width: 500px;
   min-height: 490px;
   display: flex;
   justify-content: start;
   align-items: center;
-  /* background-color: #ff6e57; */
   box-sizing: border-box;
 }
 
 .sec1-content-1-sub-box {
-  /* padding: 0px 20px; */
+  padding: 0px 20px;
 }
 
-/* .sec1-content1-text1 {
-  font-size: 24px;
-  color: #ffca4d;
-  letter-spacing: normal;
-  line-height: 50px;
-  font-family: "puvi-Medium";
-  font-weight: 900;
-} */
-
 .sec1-content1-text2 {
-  max-width: 750px;
-  min-width: 500px;
   font-size: 72px;
+  min-height: 100px;
   color: #000000;
   line-height: normal;
   font-family: "puvi-Bold";
-  /* background-color: #234feb; */
 }
 
 .textanimation-box {
   display: flex;
+  align-items: center;
 }
 
 .animation-content {
-  /* width: 250px; */
-  /* width: 370px; */
-  width: 600px;
+  width: 550px;
   height: 84px;
   overflow: hidden;
   position: relative;
-  /* background-color: rgb(216, 138, 138); */
   display: flex;
   justify-content: start;
-  /* background-color: gray; */
 }
 
 .animation-content .child {
   position: absolute;
   top: 0;
-  /* width: 100%; */
   width: 372px;
-  /* background-color: yellow; */
-
-  /* width: 300px; */
   text-align: start;
-  /* padding-right: 30px; */
 }
-
-/* .Scale {
-  width: 195px;
-}
-
-.Digitize {
-  width: 268px;
-}
-
-.Optimize {
-  width: 320px;
-}
-
-.Modernize {
-  width: 372px;
-} */
 
 .child div {
-  /* background-color: white; */
   height: 84px;
+  display: flex;
+  align-items: center;
   animation: textup 8s ease-in-out infinite;
 }
 
 .your-text {
-  /* background-color: red; */
-  margin-top: -3px;
+  display: flex;
+  align-items: center;
+  transform: translatex(-170px);
   animation: textside 8s ease-in-out infinite;
 }
 
@@ -215,44 +177,44 @@ header {
 
 @keyframes textside {
   0% {
-    transform: translatex(-250%);
+    transform: translatex(-355px);
   }
   10% {
-    transform: translatex(-250%);
+    transform: translatex(-355px);
   }
   20% {
-    transform: translatex(-250%);
+    transform: translatex(-355px);
   }
   30% {
-    transform: translatex(-200%);
+    transform: translatex(-280px);
   }
   40% {
-    transform: translatex(-200%);
+    transform: translatex(-280px);
   }
   50% {
-    transform: translatex(-165%);
+    transform: translatex(-225px);
   }
   60% {
-    transform: translatex(-165%);
+    transform: translatex(-225px);
   }
   70% {
-    transform: translatex(-133%);
+    transform: translatex(-175px);
   }
   80% {
-    transform: translatex(-133%);
+    transform: translatex(-175px);
   }
   100% {
-    transform: translatex(-250%);
+    transform: translatex(-355px);
   }
 }
 
 .sec1-content1-text3 {
+  max-width: 650px;
+  min-width: 500px;
   font-size: 24px;
   color: #4c4c4c;
-  line-height: 60px;
   letter-spacing: normal;
   font-family: "puvi-Medium";
-  /* background-color: #ffca4d; */
 }
 
 .sec1-content1-form {
@@ -301,19 +263,13 @@ header {
 }
 
 .sec1-content-2 {
-  /* padding: 0px 15px; */
   width: 486px;
   height: 490px;
-  background-color: yellow;
 }
 
 .sec1-content-2 img {
   width: 486px;
   height: 490px;
-  object-position: -198px 0px;
-
-  /* width: 100%;
-  height: 100%; */
   object-fit: cover;
 }
 
@@ -364,7 +320,6 @@ header {
   min-height: 94px;
   display: flex;
   align-items: center;
-  /* background-color: red; */
 }
 
 .sec2-box-icon {
@@ -377,14 +332,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   font-size: 20px;
-  height: 69px;
   margin-left: 12px;
   line-height: 22.94px;
   font-family: "puvi-Medium";
   font-weight: 500;
-  /* background-color: grey; */
 }
 
 .sec2-box2 .sec2-sub-box {
@@ -395,11 +347,6 @@ header {
   font-size: 22px;
   font-family: "puvi-Semi-Bold";
 }
-
-/* .sec2-box-text2 {
-  font-size: 20px;
-  background-color: grey;
-} */
 
 .sec2-box3 .sec2-sub-box {
   width: 347px;
@@ -444,19 +391,19 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  /* background-color: red; */
 }
 
 .catalyst-logo img {
   width: 412px;
   height: 118px;
+  object-fit: cover;
 }
 .section3-title4 {
   font-size: 20px;
-  font-family: "puvi-Regular";
+  margin-top: 30px;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  font-family: "puvi-Regular";
 }
 
 .section3-contentbox {
@@ -708,7 +655,6 @@ header {
   justify-content: center;
   background-color: #422c78;
   border-radius: 65px;
-  /* padding-top: 10px; */
 }
 
 .sec5-content3-sub-box {
@@ -727,7 +673,6 @@ header {
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: grey; */
 }
 
 .sec5-con3-box1-content1 {
@@ -829,10 +774,6 @@ header {
   font-size: 16px;
   font-family: "puvi-Regular";
 }
-
-/* #contact {
-  display: none;
-} */
 
 .footer {
   min-height: 307px;
@@ -1014,6 +955,66 @@ header {
   }
 }
 
+/* Text Animation */
+@media (min-width: 480px) and (max-width: 710px) {
+  .textanimation-box {
+    width: 500px;
+  }
+
+  .sec1-content1-text2 {
+    font-size: 52px;
+  }
+
+  .animation-content {
+    width: 400px;
+  }
+
+  .animation-content .child {
+    width: 270px;
+  }
+
+  .your-text {
+    transform: translatex(-115px);
+  }
+
+  .sec1-content1-text3 {
+    font-size: 20px;
+  }
+
+  @keyframes textside {
+    0% {
+      transform: translatex(-245px);
+    }
+    10% {
+      transform: translatex(-245px);
+    }
+    20% {
+      transform: translatex(-245px);
+    }
+    30% {
+      transform: translatex(-190px);
+    }
+    40% {
+      transform: translatex(-190px);
+    }
+    50% {
+      transform: translatex(-150px);
+    }
+    60% {
+      transform: translatex(-150px);
+    }
+    70% {
+      transform: translatex(-110px);
+    }
+    80% {
+      transform: translatex(-110px);
+    }
+    100% {
+      transform: translatex(-245px);
+    }
+  }
+}
+
 /* Ready to revolutionize your customer engagement control */
 @media (min-width: 480px) and (max-width: 1287px) {
   .sec5-content3-sub-box {
@@ -1069,7 +1070,6 @@ header {
 }
 
 /* Mobile Size Media-Queries Start  */
-
 @media (min-width: 360px) and (max-width: 430px) {
   .navbar .navbar-brand div {
     font-size: 24px;
@@ -1086,7 +1086,6 @@ header {
   /* Section-1 Style */
   .section1 {
     justify-content: center;
-    /* align-items: center; */
   }
 
   .sec1-content-box {
@@ -1103,25 +1102,77 @@ header {
     min-width: 332px;
     min-height: auto;
     margin-top: 57px;
-    /* background-color: yellow; */
   }
 
   .sec1-content-1-sub-box {
     padding: 0px 0px;
-  }
-
-  .sec1-content1-text1 {
-    font-size: 20px;
-    line-height: normal;
-    width: 293px;
+    width: 350px;
   }
 
   .sec1-content1-text2 {
-    font-size: 40px;
+    font-size: 34px;
+    width: 340px;
+  }
+
+  .textanimation-box {
+    width: 340px;
+  }
+
+  .animation-content {
+    width: 350px;
+    height: 50px;
+  }
+
+  .animation-content .child {
+    width: 180px;
+  }
+
+  .child div {
+    height: 50px;
+  }
+
+  .your-text {
+    height: 50px;
+    transform: translatex(-80px);
+  }
+
+  @keyframes textside {
+    0% {
+      transform: translatex(-170px);
+    }
+    10% {
+      transform: translatex(-170px);
+    }
+    20% {
+      transform: translatex(-170px);
+    }
+    30% {
+      transform: translatex(-135px);
+    }
+    40% {
+      transform: translatex(-135px);
+    }
+    50% {
+      transform: translatex(-105px);
+    }
+    60% {
+      transform: translatex(-105px);
+    }
+    70% {
+      transform: translatex(-80px);
+    }
+    80% {
+      transform: translatex(-80px);
+    }
+    100% {
+      transform: translatex(-170px);
+    }
   }
 
   .sec1-content1-text3 {
     font-size: 16px;
+    max-width: 430px;
+    min-width: 340px;
   }
 
   .sec1-content1-form {
@@ -1195,6 +1246,10 @@ header {
     height: 46px;
   }
 
+  .sec2-box-sub-title1 {
+    font-size: 16px;
+  }
+
   .sec2-box-text {
     font-size: 14px;
   }
@@ -1222,6 +1277,13 @@ header {
   .section3-title3 {
     font-size: 18px;
   }
+
+  .catalyst-logo img {
+    width: 320px;
+    height: 70px;
+    object-fit: contain;
+  }
+
   .section3-title4 {
     font-size: 14px;
     text-align: center;
