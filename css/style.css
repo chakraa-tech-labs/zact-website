@@ -79,6 +79,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* background-color: #f5f5ff; */
 }
 
 .sec1-content-box {
@@ -177,34 +178,34 @@ header {
 
 @keyframes textside {
   0% {
-    transform: translatex(-355px);
+    transform: translatex(-350px);
   }
   10% {
-    transform: translatex(-355px);
+    transform: translatex(-350px);
   }
   20% {
-    transform: translatex(-355px);
+    transform: translatex(-350px);
   }
   30% {
-    transform: translatex(-280px);
+    transform: translatex(-275px);
   }
   40% {
-    transform: translatex(-280px);
+    transform: translatex(-275px);
   }
   50% {
-    transform: translatex(-225px);
+    transform: translatex(-220px);
   }
   60% {
-    transform: translatex(-225px);
+    transform: translatex(-220px);
   }
   70% {
-    transform: translatex(-175px);
+    transform: translatex(-170px);
   }
   80% {
-    transform: translatex(-175px);
+    transform: translatex(-170px);
   }
   100% {
-    transform: translatex(-355px);
+    transform: translatex(-350px);
   }
 }
 
@@ -265,12 +266,13 @@ header {
 .sec1-content-2 {
   width: 486px;
   height: 490px;
+  /* background-color: #234feb; */
 }
 
 .sec1-content-2 img {
   width: 486px;
   height: 490px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Section-2 Style */
@@ -284,7 +286,7 @@ header {
 }
 
 .sec2-title span {
-  font-size: 47px;
+  font-size: 42px;
   margin-top: 40px;
   font-weight: 400;
   line-height: normal;
@@ -332,9 +334,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 12px;
-  line-height: 22.94px;
+  /* line-height: 22.94px; */
   font-family: "puvi-Medium";
   font-weight: 500;
 }
@@ -359,6 +361,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: #f5f5ff; */
 }
 
 .section3-title1 {
@@ -394,8 +397,8 @@ header {
 }
 
 .catalyst-logo img {
-  width: 412px;
-  height: 118px;
+  width: 300px;
+  height: 85px;
   object-fit: cover;
 }
 .section3-title4 {
@@ -517,7 +520,7 @@ header {
   align-items: center;
   padding: 50px 0px;
   background-color: #f5f7fa;
-  border-radius: 100px 100px 0px 0px;
+  /* border-radius: 100px 100px 0px 0px; */
 }
 
 .sec5-title {
@@ -549,12 +552,13 @@ header {
   width: 280px;
   min-height: 218px;
   padding: 20px;
+  padding-bottom: 46px;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 5px; */
 }
 
 .sec5-con-icon {
@@ -569,12 +573,15 @@ header {
 }
 
 .sec5-con-text1 {
+  width: 205px;
   margin-top: 24px;
   font-size: 26px;
   color: #140f3b;
   line-height: normal;
   font-family: "puvi-Medium";
   text-align: center;
+  text-align: center;
+  /* background-color: blue; */
 }
 
 .sec5-con-text2 {
@@ -596,6 +603,7 @@ header {
 }
 
 .sec5-con-box2 {
+  /* background-color: #e9f2e4; */
   background: linear-gradient(180deg, #e9f2e4 0%, #f5f7fa 90%);
 }
 
@@ -620,6 +628,10 @@ header {
 .sec5-con4-text-box {
   width: 250px;
   color: #140f3b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: grey; */
 }
 
 .sec5-content2-main-box {
@@ -631,17 +643,20 @@ header {
 }
 
 .sec5-content2-text1 {
-  font-size: 20px;
+  font-size: 28px;
   font-family: "puvi-Medium";
+  /* background-color: red; */
 }
 
 .sec5-content2-text2 {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 15px;
   text-align: center;
   font-family: "puvi-Regular";
   min-width: 500px;
-  max-width: 800px;
+  max-width: 850px;
+  /* background-color: red; */
+  /* width: 800px; */
 }
 
 .sec5-content3-main-padding {
@@ -1138,7 +1153,7 @@ header {
 
   @keyframes textside {
     0% {
-      transform: translatex(-170px);
+      transform: translatex(-10px);
     }
     10% {
       transform: translatex(-170px);
