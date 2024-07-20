@@ -455,11 +455,12 @@ header {
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
+  /* background-color: red; */
 }
 
 .sec4-title {
   font-size: 48px;
-  margin-top: 100px;
+  margin-top: 20px;
   line-height: normal;
   font-family: "puvi-Semi-Bold";
 }
@@ -594,7 +595,7 @@ header {
 }
 
 .sec5-con-box1 {
-  background: linear-gradient(180deg, #cbd3fa 0%, #f5f7fa 90%);
+  background: linear-gradient(180deg, #cbd3fa 0%, #efeff7c9 80%);
 }
 
 .sec5-con1-text-box {
@@ -604,7 +605,7 @@ header {
 
 .sec5-con-box2 {
   /* background-color: #e9f2e4; */
-  background: linear-gradient(180deg, #e9f2e4 0%, #f5f7fa 90%);
+  background: linear-gradient(180deg, #ecf5e8 0%, #f4f7f2 80%);
 }
 
 .sec5-con2-text-box {
@@ -613,7 +614,7 @@ header {
 }
 
 .sec5-con-box3 {
-  background: linear-gradient(180deg, #e8f4fa 0%, #f5f7fa 90%);
+  background: linear-gradient(180deg, #e8f4fa 0%, #f0f5f8 80%);
 }
 
 .sec5-con3-text-box {
@@ -622,7 +623,7 @@ header {
 }
 
 .sec5-con-box4 {
-  background: linear-gradient(180deg, #f5ded8 0%, #f5f7fa 90%);
+  background: linear-gradient(180deg, #f5ded8 0%, #f8f2f0 80%);
 }
 
 .sec5-con4-text-box {
