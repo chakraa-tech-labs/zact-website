@@ -461,7 +461,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
-  /* background-color: #f9f9fe; */
+  background-color: #f9f9fe;
   /* background-color: #f2f7fd; */
 }
 
@@ -545,6 +545,7 @@ header {
 
 .sec5-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -554,6 +555,7 @@ header {
 
 .sec5-content1-sub-box {
   display: flex;
+  /* flex-direction: column; */
   gap: 25px;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -642,7 +644,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: grey; */
 }
 
 .sec5-content2-main-box {
@@ -656,19 +657,15 @@ header {
 .sec5-content2-text1 {
   font-size: 28px;
   font-family: "puvi-Medium";
-  /* background-color: red; */
 }
 
 .sec5-content2-Linkedin-btn-div {
-  width: 350px;
-  height: 80px;
   margin-top: 40px;
   border-radius: 6px;
 }
 
 .sec5-content2-Linkedin-btn-div button {
-  width: 100%;
-  height: 100%;
+  padding: 10px 30px 10px 30px;
   border: none;
   border-radius: 6px;
   background-color: #0072b1;
@@ -685,10 +682,6 @@ header {
   color: white;
   font-size: 18px;
   font-family: "puvi-Medium";
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* height: 100%; */
 }
 
 /* .sec5-content2-text2 {
@@ -812,16 +805,14 @@ header {
   height: 440px;
   display: flex;
   align-items: center;
-  background-color: white;
   border-radius: 0px 60px 60px 0px;
 }
 
 .sec5-con3-box2 img {
-  width: 100%;
-  height: 100%;
+  width: 99%;
+  height: 99%;
   object-fit: contain;
-  border-radius: 0px 60px 60px 0px;
-  /* display: none; */
+  border-radius: 0px 65px 60px 0px;
 }
 
 .warring-text2 {
@@ -1006,9 +997,14 @@ header {
   font-family: "puvi-Medium";
 }
 
-/* .copyrights-text span {
+.copyrights-text span {
   margin-left: 3px;
-} */
+  text-decoration: underline;
+}
+
+.copyrights-text span a {
+  color: #101010;
+}
 
 /* Menu Bar gap align */
 @media (min-width: 480px) and (max-width: 991px) {
@@ -1422,12 +1418,25 @@ header {
     font-size: 18px;
   }
 
-  .sec5-content2-text2 {
+  .sec5-content2-Linkedin-btn-div button {
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0072b1;
+  }
+
+  .linkedin-text {
+    color: white;
+    font-size: 18px;
+    font-family: "puvi-Medium";
+  }
+
+  /* .sec5-content2-text2 {
     font-size: 14px;
     min-width: 340px;
     max-width: 410px;
     padding: 0px 10px;
-  }
+  } */
 
   .sec5-content3-main-box {
     width: 332px;
