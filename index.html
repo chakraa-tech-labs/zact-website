@@ -22,6 +22,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body id="body">
+
+    <div class="container-fluid" id="background-div">
+      <div id="successMessage">
+        <div>
+          <div class="p1">Thank you for your interest.</div>
+          <div class="p2">We will update you through email.</div>
+        </div>
+      </div>
+    </div>
+
     <header class="container-fluid">
       <nav class="container navbar navbar-light navbar-expand-lg">
         <a href="" class="navbar-brand">
@@ -93,8 +103,10 @@
               </div>
               <div class="sec1-content1-text3">With our custom software solutions.</div>
               <div class="sec1-content1-form">
-                <form action="">
-                  <input placeholder="Enter your email" id="firstInput" />
+                <form action=""  onsubmit="successMessage1(event)">
+                  <input placeholder="Enter your email" id="firstInput" 
+                   oninput="resetStyle1()"  
+                   />
                   <button class="form"><div>Get in touch</div></button>
                   <p class="warring-text" id="alertText1">
                     Please enter a valid email
@@ -514,8 +526,11 @@
                       Let us help you bring it to life.
                     </div>
                     <div class="sec5-con3-box1-content3">
-                      <form action="">
-                        <input placeholder="Enter your email" id="secoundInput" />
+                      <form action=""  onsubmit="successMessage2(event)">
+                    <input placeholder="Enter your email" id="secoundInput" 
+                    
+                    oninput="resetStyle2()"
+                    />
                         <button class="form"><div>Get in touch</div></button>
                         <p class="warring-text2" id="alertText2">
                           Please enter a valid email
@@ -531,6 +546,7 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="sec5-con3-box sec5-con3-box2">
                   <img src="media/bottom-from-img.jpg" alt="" />
                 </div>
@@ -645,10 +661,20 @@
         </div>
       </div>
 
+      <div class="container-fluid" id="background-div-2">
+        <div id="successMessage2">
+          <div>
+            <div class="p1">Thank you for your interest.</div>
+            <div class="p2">We will update you through email.</div>
+          </div>
+        </div>
+      </div>
+
     </footer>
 
   </body>
 
   <!-- Script -->
+  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
   <script src="script/index.js"></script>
 </html>
