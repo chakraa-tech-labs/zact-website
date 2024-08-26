@@ -1127,12 +1127,6 @@ header {
 
 /* Our service allignment */
 @media (min-width: 480px) and (max-width: 1041px) {
-  .sec4-con-sub-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-  }
   .sec4-con-box-img {
     margin-top: 10px;
   }
