@@ -75,11 +75,11 @@ header {
 }
 
 .section1 {
-  min-height: 450px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* background-color: #f5f5ff; */
+  background-color: #f9f9fe;
 }
 
 .sec1-content-box {
@@ -89,7 +89,7 @@ header {
   justify-content: center;
 }
 .sec1-content-1 {
-  min-height: 490px;
+  min-height: 470px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -212,6 +212,7 @@ header {
 .sec1-content1-text3 {
   max-width: 650px;
   min-width: 500px;
+  margin-top: 10px;
   font-size: 24px;
   color: #4c4c4c;
   letter-spacing: normal;
@@ -265,8 +266,7 @@ header {
 
 .sec1-content-2 {
   width: 486px;
-  height: 490px;
-  /* background-color: #234feb; */
+  height: 470px;
 }
 
 .sec1-content-2 img {
@@ -332,6 +332,7 @@ header {
 .sec2-box-icon img {
   width: 60px;
   height: 60px;
+  opacity: 0.75;
   object-fit: cover;
 }
 
@@ -342,7 +343,6 @@ header {
   justify-content: center;
   font-size: 16px;
   margin-left: 12px;
-  /* line-height: 22.94px; */
   font-family: "puvi-Medium";
   font-weight: 500;
 }
@@ -367,7 +367,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #f5f5ff; */
 }
 
 .section3-title1 {
@@ -462,21 +461,19 @@ header {
   align-items: center;
   padding-bottom: 100px;
   background-color: #f9f9fe;
-  /* background-color: #f2f7fd; */
 }
 
 .sec4-title {
   font-size: 48px;
-  margin-top: 20px;
+  margin-top: 45px;
   line-height: normal;
   font-family: "puvi-Semi-Bold";
 }
 
 .sec4-content {
-  margin-top: 70px;
+  margin-top: 45px;
   min-height: 1960px;
   display: flex;
-  gap: 80px;
   flex-direction: column;
 }
 
@@ -498,9 +495,10 @@ header {
 .sec4-con-box-img {
   width: 492px;
   height: 328px;
-  /* background-color: white; */
-  /* background-color: #f2f7fd; */
-  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f7fd;
 }
 
 .sec4-con-box-img img {
@@ -530,7 +528,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 50px 0px;
-  background-color: #f5f7fa;
+  background-color: #f9f9fe;
   /* border-radius: 100px 100px 0px 0px; */
 }
 
@@ -830,7 +828,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #ababab;
+  /* border-bottom: 1px solid #ababab; */
 }
 
 .footer-title {
@@ -1124,6 +1122,19 @@ header {
 @media (min-width: 480px) and (max-width: 557px) {
   .sec5-content3-main-padding {
     padding: 0px 0px;
+  }
+}
+
+/* Our service allignment */
+@media (min-width: 480px) and (max-width: 1041px) {
+  .sec4-con-sub-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+  }
+  .sec4-con-box-img {
+    margin-top: 10px;
   }
 }
 
