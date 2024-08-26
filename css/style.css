@@ -53,7 +53,7 @@ header {
 
 .navbar .navbar-brand div {
   color: #234feb !important;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
   font-family: "puvi-Regular";
   cursor: default;
@@ -256,11 +256,12 @@ header {
 }
 
 .warring-text {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;
   font-size: 16px;
+  z-index: 1;
   font-family: "puvi-Regular";
 }
 
@@ -814,7 +815,7 @@ header {
 }
 
 .warring-text2 {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;
@@ -965,7 +966,7 @@ header {
 }
 
 .warring-text3 {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;

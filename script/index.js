@@ -39,7 +39,8 @@ function successMessage1(e) {
 
   if (!validMail(inputValue)) {
     firstInput.style.border = "2px solid #ff6e57";
-    firstAlert.style.display = "block";
+    firstAlert.style.visibility = "visible";
+    // firstAlert.style.display = "block";
     return;
   }
 
@@ -50,7 +51,7 @@ function successMessage1(e) {
 // FirstInput Style Reset
 function resetStyle1() {
   firstInput.style.border = "1px solid #9b9eae";
-  firstAlert.style.display = "none";
+  firstAlert.style.visibility = "hidden";
 }
 
 // SecoundInput Sumbit Function
@@ -65,7 +66,7 @@ function successMessage2(e) {
 
   if (!validMail(inputValue)) {
     secoundtInput.style.border = "2px solid #ff6e57";
-    secoundAlert.style.display = "block";
+    secoundAlert.style.visibility = "visible";
     return;
   }
 
@@ -76,7 +77,7 @@ function successMessage2(e) {
 // SecoundInput Style Reset
 function resetStyle2() {
   secoundtInput.style.border = "1px solid #FFFFFF";
-  secoundAlert.style.display = "none";
+  secoundAlert.style.visibility = "hidden";
 }
 
 // ThirdInput Sumbit Function
@@ -91,7 +92,8 @@ function successMessage3(e) {
 
   if (!validMail(inputValue)) {
     thirdInput.style.border = "2px solid #ff6e57";
-    thirdInputAlert.style.display = "block";
+    thirdInputAlert.style.visibility = "visible";
+
     return;
   }
 
@@ -102,7 +104,7 @@ function successMessage3(e) {
 // ThirdInput Style Reset
 function resetStyle3() {
   thirdInput.style.border = "1px solid #9095a1";
-  thirdInputAlert.style.display = "none";
+  thirdInputAlert.style.visibility = "hidden";
 }
 
 // Wish Open Common Function
