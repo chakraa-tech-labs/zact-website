@@ -44,6 +44,10 @@ header {
   border-bottom: 1px solid #f0f0f0;
 }
 
+.navbar {
+  padding-left: 0px !important;
+}
+
 .navbar .navbar-brand {
   display: flex;
   gap: 4px;
@@ -53,7 +57,7 @@ header {
 
 .navbar .navbar-brand div {
   color: #234feb !important;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
   font-family: "puvi-Regular";
   cursor: default;
@@ -256,11 +260,12 @@ header {
 }
 
 .warring-text {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;
   font-size: 16px;
+  z-index: 1;
   font-family: "puvi-Regular";
 }
 
@@ -814,7 +819,7 @@ header {
 }
 
 .warring-text2 {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;
@@ -965,7 +970,7 @@ header {
 }
 
 .warring-text3 {
-  display: none;
+  visibility: hidden;
   margin-left: 5px;
   margin-top: 3px;
   color: #ff6e57;
@@ -1002,6 +1007,102 @@ header {
 
 .copyrights-text span a {
   color: #101010;
+}
+
+/* Form successMessage */
+#background-div {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background-color: #252526cc;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+#successMessage {
+  z-index: 3;
+  min-height: 154px;
+  border-radius: 24px;
+  transform: scale(0);
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+  padding: 0px 141px;
+  padding-bottom: 34px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../media/thanks_big.png");
+}
+
+#successMessage .p1 {
+  margin-top: 82px;
+  font-size: 32px;
+  text-align: center;
+  line-height: normal;
+  font-family: "puvi-Semi-Bold";
+}
+
+#successMessage .p2 {
+  margin-top: 8px;
+  color: #414141;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  font-family: "puvi-Regular";
+}
+
+#contact {
+  position: relative;
+}
+
+#background-div-2 {
+  position: fixed;
+  bottom: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: #252526cc;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+#successMessage2 {
+  z-index: 3;
+  min-height: 154px;
+  border-radius: 24px;
+  transform: scale(0);
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+  padding: 0px 141px;
+  padding-bottom: 34px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../media/thanks_big.png");
+}
+
+#successMessage2 .p1 {
+  margin-top: 82px;
+  font-size: 32px;
+  text-align: center;
+  line-height: normal;
+  font-family: "puvi-Semi-Bold";
+}
+
+#successMessage2 .p2 {
+  margin-top: 8px;
+  color: #414141;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  font-family: "puvi-Regular";
 }
 
 /* Menu Bar gap align */
@@ -1554,5 +1655,43 @@ header {
 
   .copyrights-text {
     font-size: 6px;
+  }
+
+  #background-div {
+    min-height: 640px;
+    max-height: 932px;
+  }
+
+  #successMessage {
+    padding: 0px 20px;
+  }
+
+  #successMessage .p1 {
+    margin-top: 60px;
+    min-width: 100px;
+    font-size: 20px;
+  }
+
+  #successMessage .p2 {
+    font-size: 14px;
+  }
+
+  #background-div-2 {
+    min-height: 640px;
+    max-height: 932px;
+  }
+
+  #successMessage2 {
+    padding: 0px 20px;
+  }
+
+  #successMessage2 .p1 {
+    margin-top: 60px;
+    min-width: 100px;
+    font-size: 20px;
+  }
+
+  #successMessage2 .p2 {
+    font-size: 14px;
   }
 }
